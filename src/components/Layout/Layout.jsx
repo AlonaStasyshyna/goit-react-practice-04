@@ -10,7 +10,7 @@ export const Layout = () => {
             <LinkNav to="/" end>Home</LinkNav>
           </li>
           <li>
-            <LinkNav to="search">Search</LinkNav>
+            <LinkNav to="country">Countries</LinkNav>
           </li>
         </ul>
       </nav>
