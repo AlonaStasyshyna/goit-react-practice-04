@@ -9,7 +9,7 @@ export const CountryPage = () => {
         <>
             {isLoading && <Loader />}
             {error && <p>Ooops! Something went wrong.</p>}
-            {country && <CountryDetails country={country} />}
+            {country && <CountryDetails country={country[0]} />}
         </>
     )
 }

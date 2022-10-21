@@ -8,7 +8,7 @@ export const CountriesList = ({ countries }) => {
       {countries.map(({ id, flag, country }) => {
         return (
           <li key={id}>
-            <Link to={`country/${id}`} state={{ from: location }}>
+            <Link to={`/country/${id}`} state={{ from: location }}>
               <img src={flag} alt={country} />
             </Link>
           </li>
